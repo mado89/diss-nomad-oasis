@@ -39,6 +39,7 @@ plugins = [
   "nomad-parser-plugins-atomistic>=1.0",
   "nomad-parser-plugins-workflow>=1.0",
   "nomad-parser-plugins-database>=1.0",
+  "foobar @ git+https://github.com/mado89/foobar.git@1e3a1a100a31965c7186b2d7066ca9c727a4d6c7",
 ]
 jupyter = []
 dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.4"]
