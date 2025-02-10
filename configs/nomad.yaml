@@ -1,5 +1,5 @@
 services:
-  api_host: "localhost"
+  api_host: "192.168.100.97"
   api_base_path: "/nomad-oasis"
 
 oasis:
@@ -7,7 +7,7 @@ oasis:
   uses_central_user_management: true
 
 north:
-  jupyterhub_crypt_key: "978bfb2e13a8448a253c629d8dd84ff89587f30e635b753153960930cad9d36d"
+  jupyterhub_crypt_key: "69f0e21431a94fd7cd20996e441ec4326ffeeb8777b30b4d85a71150896620da"
   tools:
     options:
       jupyter:
@@ -15,7 +15,7 @@ north:
 
 meta:
   deployment: "oasis"
-  deployment_url: "https://my-oasis.org/api"
+  deployment_url: "http://192.168.100.97/api"
   maintainer_email: "me@my-oasis.org"
 
 logstash:
